@@ -5,3 +5,15 @@
 .navbar-brand {
   font-size: 1.5em;
 }
+
+.headerImg {
+  width: 100%;
+}
+
+.itemsList span {
+  display: block;
+}
+
+/* Adjust span display with media queries */
+/* Add custom font */
+/* Adjust header typography */
