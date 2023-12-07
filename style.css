@@ -1,3 +1,17 @@
+/* FONTS
+font-family: 'Lugrasimo', cursive; REGULAR
+font-family: 'Quattrocento', serif; REGULAR and BOLD
+ */
+* {
+  font-family: "Quattrocento", serif;
+}
+
+.navbar-brand,
+.itemsList span,
+h1 {
+  font-family: "Lugrasimo", cursive;
+}
+
 .siteLogo {
   height: 2em;
 }
@@ -13,7 +27,6 @@
 .itemsList span {
   display: block;
 }
-
 /* Adjust span display with media queries */
 /* Add custom font */
 /* Adjust header typography */
