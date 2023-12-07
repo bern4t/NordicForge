@@ -2,6 +2,7 @@
 font-family: 'Lugrasimo', cursive; REGULAR
 font-family: 'Quattrocento', serif; REGULAR and BOLD
  */
+
 * {
   font-family: "Quattrocento", serif;
 }
@@ -27,6 +28,7 @@ h1 {
 .itemsList span {
   display: block;
 }
+
+/* TO DO LIST */
 /* Adjust span display with media queries */
-/* Add custom font */
 /* Adjust header typography */
