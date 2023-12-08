@@ -3,7 +3,7 @@
 }
 
 body {
-  background-color: #f1faee;
+  background-color: #eae0d5;
 }
 
 .navbar-brand,
@@ -16,18 +16,18 @@ h1,
 .navbar-light .navbar-brand,
 .navbar-light .navbar-brand:hover,
 #mainNavbar .nav-link {
-  color: #1d3557;
+  color: #5e503f;
 }
 
 #mainNavbar .nav-link:hover,
 .span-color {
-  color: #457b9d;
+  color: #22333b;
 }
 
 .siteLogo {
   height: 2rem;
-  filter: invert(19%) sepia(13%) saturate(2432%) hue-rotate(176deg)
-    brightness(96%) contrast(96%);
+  filter: invert(29%) sepia(33%) saturate(335%) hue-rotate(353deg)
+    brightness(95%) contrast(90%);
 }
 
 .navbar-brand {
@@ -37,7 +37,7 @@ h1,
 
 .navbar {
   font-size: 1.2rem;
-  background-color: #a8dadc;
+  background-color: #c6ac8f;
 }
 
 .headerImg {
