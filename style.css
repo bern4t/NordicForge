@@ -26,6 +26,8 @@ h1,
 
 .siteLogo {
   height: 2rem;
+  filter: invert(19%) sepia(13%) saturate(2432%) hue-rotate(176deg)
+    brightness(96%) contrast(96%);
 }
 
 .navbar-brand {
