@@ -5,6 +5,11 @@ font-family: 'Quattrocento', serif; REGULAR and BOLD
 
 * {
   font-family: "Quattrocento", serif;
+  color: #1d3557;
+}
+
+body {
+  background-color: #f1faee;
 }
 
 .navbar-brand,
@@ -14,19 +19,23 @@ h1 {
 }
 
 .siteLogo {
-  height: 2em;
+  height: 2rem;
+}
+
+.navbar {
+  font-size: 1.2rem;
 }
 
 .navbar-brand {
-  font-size: 1.5em;
+  font-size: 1.5rem;
 }
 
 .headerImg {
   width: 100%;
 }
 
-.itemsList span {
-  display: block;
+.span-color {
+  color: #e63946;
 }
 
 /* TO DO LIST */
