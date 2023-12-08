@@ -5,7 +5,6 @@ font-family: 'Quattrocento', serif; REGULAR and BOLD
 
 * {
   font-family: "Quattrocento", serif;
-  color: #1d3557;
 }
 
 body {
@@ -18,16 +17,28 @@ h1 {
   font-family: "Lugrasimo", cursive;
 }
 
+h1,
+.navbar-light .navbar-brand,
+.navbar-light .navbar-brand:hover,
+#mainNavbar .nav-link {
+  color: #1d3557;
+}
+
+#mainNavbar .nav-link:hover {
+  color: #457b9d;
+}
+
 .siteLogo {
   height: 2rem;
 }
 
-.navbar {
-  font-size: 1.2rem;
-}
-
 .navbar-brand {
   font-size: 1.5rem;
+}
+
+.navbar {
+  font-size: 1.2rem;
+  background-color: #a8dadc;
 }
 
 .headerImg {
@@ -35,7 +46,7 @@ h1 {
 }
 
 .span-color {
-  color: #e63946;
+  color: #457b9d;
 }
 
 /* TO DO LIST */
