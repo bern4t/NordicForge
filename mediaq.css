@@ -9,23 +9,27 @@
   }
   .itemsList span {
     font-size: 1.3rem;
-    margin: 0.1rem;
     letter-spacing: 0.1rem;
   }
 }
 
-/* Laptop - 1024 px */
+/* Laptop standard - 1024px */
 @media (min-width: 1024px) {
+  .siteLogo {
+    height: 2.3rem;
+  }
+  #mainNavbar .nav-link {
+    font-size: 1.1rem;
+  }
   h1 {
-    font-size: 3.5rem;
-    margin-bottom: 2rem;
+    font-size: 3rem;
   }
   .itemsList span {
-    font-size: 1.1rem;
-    margin: 0.1rem;
-    letter-spacing: 0.1rem;
+    font-size: 1.6rem;
   }
 }
+
+/* Laptop large - 1440px */
 
 /* 4K - 2560px */
 @media (min-width: 2560px) {
@@ -34,7 +38,6 @@
   }
   #mainNavbar .nav-link {
     font-size: 3rem;
-    margin: 0 0.5rem;
   }
   h1 {
     font-size: 7.5rem;
