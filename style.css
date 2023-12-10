@@ -27,7 +27,7 @@ h1,
 }
 
 .siteLogo {
-  height: 7rem;
+  height: 2rem;
   filter: invert(29%) sepia(33%) saturate(335%) hue-rotate(353deg)
     brightness(95%) contrast(90%);
 }
@@ -43,8 +43,7 @@ h1,
 }
 
 #mainNavbar .nav-link {
-  font-size: 3rem;
-  margin: 0 0.5rem;
+  font-size: 1rem;
 }
 
 /* HEADER */
@@ -53,10 +52,10 @@ h1,
 }
 
 h1 {
-  font-size: 7.5rem;
+  font-size: 2.5rem;
   padding-bottom: 3rem;
 }
 
 .itemsList span {
-  font-size: 3rem;
+  font-size: 1rem;
 }
