@@ -30,19 +30,35 @@
 }
 
 /* Laptop large - 1440px */
+@media (min-width: 1440px) {
+  .siteLogo {
+    height: 3rem;
+  }
+  #mainNavbar .nav-link {
+    font-size: 1.8rem;
+  }
+  h1 {
+    font-size: 3.5rem;
+    margin-bottom: 4rem;
+  }
+  .itemsList span {
+    font-size: 2rem;
+  }
+}
 
 /* 4K - 2560px */
 @media (min-width: 2560px) {
   .siteLogo {
-    height: 7rem;
+    height: 3rem;
   }
   #mainNavbar .nav-link {
-    font-size: 3rem;
+    font-size: 1.8rem;
   }
   h1 {
-    font-size: 7.5rem;
+    font-size: 3.5rem;
+    margin-bottom: 4rem;
   }
   .itemsList span {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 }
