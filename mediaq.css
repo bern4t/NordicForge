@@ -1,3 +1,21 @@
+/* Tablet - 768px */
+@media (min-width: 768px) {
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  .itemsList {
+    padding: 0;
+  }
+  .itemsList span {
+    font-size: 1.1rem;
+    margin: 0.1rem;
+    letter-spacing: 0.1rem;
+  }
+}
+
+/* Laptop - 1024 px */
+
 /* 4K - 2560px */
 @media (min-width: 2560px) {
   .siteLogo {
