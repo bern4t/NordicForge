@@ -1,3 +1,4 @@
+/* FONTS AND COLORS */
 * {
   font-family: "Quattrocento", serif;
 }
@@ -12,24 +13,26 @@ h1 {
   font-family: "Lugrasimo", cursive;
 }
 
-h1,
 .navbar-light .navbar-brand,
 .navbar-light .navbar-brand:hover,
-#mainNavbar .nav-link {
+#mainNavbar .nav-link,
+h1,
+.itemsList span {
   color: #5e503f;
 }
 
 #mainNavbar .nav-link:hover,
-.span-color {
+.itemsList .span-color {
   color: #22333b;
 }
 
 .siteLogo {
-  height: 2rem;
+  height: 2.5rem;
   filter: invert(29%) sepia(33%) saturate(335%) hue-rotate(353deg)
     brightness(95%) contrast(90%);
 }
 
+/* NAVBAR */
 .navbar-brand {
   font-size: 1.5rem;
   font-weight: bold;
@@ -40,6 +43,12 @@ h1,
   background-color: #c6ac8f;
 }
 
-.headerImg {
-  width: 100%;
+/* HEADER */
+h1 {
+  font-size: 4.5rem;
+  padding-bottom: 3rem;
+}
+
+.itemsList span {
+  font-size: 2rem;
 }
