@@ -1,5 +1,5 @@
-/* About 4K - 2000px + */
-@media (min-width: 2000px) {
+/* 4K - 2560px */
+@media (min-width: 2560px) {
   .siteLogo {
     height: 7rem;
   }
