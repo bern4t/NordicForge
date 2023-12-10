@@ -13,21 +13,21 @@ h1 {
   font-family: "Lugrasimo", cursive;
 }
 
+#mainNavbar .nav-link:hover,
+.itemsList span {
+  color: #22333b;
+}
+
 .navbar-light .navbar-brand,
 .navbar-light .navbar-brand:hover,
 #mainNavbar .nav-link,
 h1,
-.itemsList span {
+.itemsList .span-color {
   color: #5e503f;
 }
 
-#mainNavbar .nav-link:hover,
-.itemsList .span-color {
-  color: #22333b;
-}
-
 .siteLogo {
-  height: 2.5rem;
+  height: 7rem;
   filter: invert(29%) sepia(33%) saturate(335%) hue-rotate(353deg)
     brightness(95%) contrast(90%);
 }
@@ -39,16 +39,24 @@ h1,
 }
 
 .navbar {
-  font-size: 1.2rem;
   background-color: #c6ac8f;
 }
 
+#mainNavbar .nav-link {
+  font-size: 3rem;
+  margin: 0 0.5rem;
+}
+
 /* HEADER */
+.headerImg {
+  width: 100%;
+}
+
 h1 {
-  font-size: 4.5rem;
+  font-size: 7.5rem;
   padding-bottom: 3rem;
 }
 
 .itemsList span {
-  font-size: 2rem;
+  font-size: 3rem;
 }
