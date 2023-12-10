@@ -56,6 +56,11 @@ h1 {
   padding-bottom: 3rem;
 }
 
+.itemsList {
+  padding: 2rem 1rem;
+}
+
 .itemsList span {
   font-size: 1rem;
+  padding: 0.1rem;
 }
