@@ -27,14 +27,14 @@ h1,
 }
 
 .siteLogo {
-  height: 2rem;
+  height: 2.3rem;
   filter: invert(29%) sepia(33%) saturate(335%) hue-rotate(353deg)
     brightness(95%) contrast(90%);
 }
 
 /* NAVBAR */
 .navbar-brand {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   font-weight: bold;
 }
 
@@ -43,7 +43,7 @@ h1,
 }
 
 #mainNavbar .nav-link {
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
 
 /* HEADER */
@@ -57,10 +57,10 @@ h1 {
 }
 
 .itemsList {
-  padding: 2rem 1rem;
+  padding: 2rem 0;
 }
 
 .itemsList span {
-  font-size: 1rem;
-  padding: 0.1rem;
+  font-size: 1.2rem;
+  margin: 0.1rem;
 }
