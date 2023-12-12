@@ -9,7 +9,8 @@ body {
 
 .navbar-brand,
 .itemsList span,
-h1 {
+h1,
+h2 {
   font-family: "Lugrasimo", cursive;
 }
 
@@ -22,6 +23,7 @@ h1 {
 .navbar-light .navbar-brand:hover,
 #mainNavbar .nav-link,
 h1,
+h2,
 .itemsList .span-color {
   color: #5e503f;
 }
@@ -47,7 +49,7 @@ h1,
 }
 
 /* HEADER */
-.headerImg {
+.img-fluid {
   width: 100%;
 }
 
