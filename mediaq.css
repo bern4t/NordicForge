@@ -1,6 +1,6 @@
 /* Tablet - 768px */
 @media (min-width: 768px) {
-  h1 {
+  .main-heading {
     font-size: 2.5rem;
     margin-bottom: 1.4rem;
   }
@@ -21,7 +21,7 @@
   #mainNavbar .nav-link {
     font-size: 1.4rem;
   }
-  h1 {
+  .main-heading {
     font-size: 3rem;
   }
   .itemsList span {
@@ -37,7 +37,7 @@
   #mainNavbar .nav-link {
     font-size: 1.8rem;
   }
-  h1 {
+  .main-heading {
     font-size: 3.5rem;
     margin-bottom: 4rem;
   }
@@ -55,7 +55,7 @@
     font-size: 3rem;
     padding: 0 1rem;
   }
-  h1 {
+  .main-heading {
     font-size: 7rem;
     margin-bottom: 8rem;
   }

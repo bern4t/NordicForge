@@ -9,21 +9,22 @@ body {
 
 .navbar-brand,
 .itemsList span,
-h1,
-h2 {
+.main-heading,
+.content-heading {
   font-family: "Lugrasimo", cursive;
 }
 
 #mainNavbar .nav-link:hover,
-.itemsList span {
+.itemsList span,
+.description {
   color: #22333b;
 }
 
 .navbar-light .navbar-brand,
 .navbar-light .navbar-brand:hover,
 #mainNavbar .nav-link,
-h1,
-h2,
+.main-heading,
+.content-heading,
 .itemsList .span-color {
   color: #5e503f;
 }
@@ -53,7 +54,7 @@ h2,
   width: 100%;
 }
 
-h1 {
+.main-heading {
   font-size: 2.5rem;
 }
 
