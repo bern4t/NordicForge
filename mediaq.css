@@ -1,4 +1,4 @@
-/* Tablet - 768px */
+/* Mobile < 768px */
 @media (max-width: 767px) {
   .navbar {
     background-color: #c6ac8f;
@@ -6,6 +6,7 @@
   }
 }
 
+/* Tablet - 768px */
 @media (min-width: 768px) {
   .main-heading {
     font-size: 2.5rem;
