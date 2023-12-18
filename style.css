@@ -15,7 +15,7 @@ body {
 }
 
 #mainNavbar .nav-link:hover,
-.itemsList span,
+.itemsList .span-color,
 .description {
   color: #22333b;
 }
@@ -25,7 +25,7 @@ body {
 #mainNavbar .nav-link,
 .main-heading,
 .content-heading,
-.itemsList .span-color {
+.itemsList span {
   color: #5e503f;
 }
 
@@ -58,22 +58,17 @@ body {
   font-size: 1.1rem;
 }
 
-/* HEADER */
+/* Content section */
 .img-fluid {
   width: 100%;
 }
 
-.main-heading {
-  font-size: 2.5rem;
+.content-heading {
+  font-size: 1.5rem;
+  letter-spacing: 0.1rem;
+  font-weight: bold;
 }
 
-.itemsList {
-  padding: 2rem 0;
+.description {
+  font-size: 1rem;
 }
-
-.itemsList span {
-  font-size: 1.2rem;
-  margin: 0.1rem;
-}
-
-/* Content section */
