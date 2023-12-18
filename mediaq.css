@@ -25,21 +25,34 @@
     background: none;
     opacity: 1;
     font-weight: normal;
+    padding: 0;
+    padding-left: 1rem;
   }
   .siteLogo {
-    height: 2.6rem;
+    height: 2rem;
   }
   #mainNavbar .nav-link {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
+  }
+  .header-text {
+    margin-top: 3rem;
   }
   .main-heading {
-    font-size: 3rem;
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
   }
   .itemsList span {
-    font-size: 1.6rem;
+    font-size: 1.2rem;
   }
   .content-icon {
     display: inline;
+    margin: 0.5rem 0 2rem;
+  }
+  .content-heading {
+    font-size: 1.7rem;
+  }
+  .description {
+    font-size: 1.1rem;
   }
 }
 
