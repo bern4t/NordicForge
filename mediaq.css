@@ -10,15 +10,22 @@
 /* Tablet - 768px */
 @media (min-width: 768px) {
   .main-heading {
-    font-size: 2.5rem;
-    margin-bottom: 1.4rem;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
   }
   .itemsList {
-    padding: 0;
+    margin-bottom: -4rem;
   }
   .itemsList span {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     letter-spacing: 0.1rem;
+  }
+  .row {
+    margin-bottom: 2rem;
+  }
+  section .row:last-child {
+    margin-bottom: 0;
   }
 }
 
