@@ -76,4 +76,5 @@ body {
 
 .content-icon {
   height: 1rem;
+  display: none;
 }
