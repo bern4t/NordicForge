@@ -20,9 +20,6 @@
     font-size: 1.3rem;
     letter-spacing: 0.1rem;
   }
-  .content-icon {
-    display: inline;
-  }
 }
 
 /* Laptop standard - 1024px */
@@ -38,6 +35,9 @@
   }
   .itemsList span {
     font-size: 1.6rem;
+  }
+  .content-icon {
+    display: inline;
   }
 }
 

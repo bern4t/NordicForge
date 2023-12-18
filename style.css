@@ -30,14 +30,14 @@ body {
 }
 
 .siteLogo {
-  height: 2.3rem;
+  height: 2rem;
   filter: invert(29%) sepia(33%) saturate(335%) hue-rotate(353deg)
     brightness(95%) contrast(90%);
 }
 
 /* NAVBAR */
 .navbar-brand {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   font-weight: bold;
 }
 
@@ -67,6 +67,7 @@ body {
   font-size: 1.5rem;
   letter-spacing: 0.1rem;
   font-weight: bold;
+  margin-top: 2rem;
 }
 
 .description {
