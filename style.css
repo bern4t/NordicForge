@@ -59,6 +59,10 @@ body {
 }
 
 /* Content section */
+.itemsList span {
+  display: block;
+}
+
 .img-fluid {
   width: 100%;
 }
