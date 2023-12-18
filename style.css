@@ -50,7 +50,8 @@ body {
 
 .navbar.scrolled {
   background-color: #c6ac8f;
-  transition: background 200ms;
+  transition: all 200ms;
+  opacity: 1;
 }
 
 #mainNavbar .nav-link {
