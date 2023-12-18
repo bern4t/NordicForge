@@ -45,8 +45,12 @@ body {
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: #c6ac8f;
   z-index: 1;
+}
+
+.navbar.scrolled {
+  background-color: #c6ac8f;
+  transition: background 200ms;
 }
 
 #mainNavbar .nav-link {
