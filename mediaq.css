@@ -1,24 +1,21 @@
 /* Tablet - 768px */
 @media (min-width: 768px) {
-  .navbar {
-    background-color: #c6ac8f;
-    opacity: 0.7;
-    font-weight: bold;
-  }
   .row {
     margin-bottom: 2rem;
   }
   section .row:last-child {
     margin-bottom: 0;
   }
-  .siteLogo {
-    height: 2.6rem;
-  }
   .navbar-brand {
-    font-size: 2rem;
+    margin-right: 2rem;
   }
-  #mainNavbar .nav-link {
-    font-size: 2.4rem;
+}
+
+@media (max-width: 1023px) {
+  .navbar {
+    background-color: #c6ac8f;
+    opacity: 0.8;
+    font-weight: bold;
   }
 }
 
